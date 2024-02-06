@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lead",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "相性抜群...?",
+      "description": "今すぐにでも逃げろ!近くにいるぞ!(隠し進捗)",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "onimeda:onieye",
+    "criteria": {
+      "oninear": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

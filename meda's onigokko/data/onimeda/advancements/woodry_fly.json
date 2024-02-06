@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_shell",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "woodryさんやりましたね!!!!!!",
+    "description": "woodryさんに強制ﾀｶｲﾀｶｰｲされる。これが伝統行事(隠し進捗)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "onimeda:firstjoin",
+  "criteria": {
+    "woodry_fly": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:levitation": {}
+        }
+      }
+    }
+  }
+}

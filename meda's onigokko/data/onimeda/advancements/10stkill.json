@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_axe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "死を呼ぶ追跡者",
+      "description": "もう....戻れないよ(隠し進捗)",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "onimeda:5stkill",
+    "criteria": {
+      "10stkill": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
