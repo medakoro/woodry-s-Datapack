@@ -14,3 +14,4 @@ execute if score $tips system matches 12 run tellraw @a ["",{"text":"Tips>> お�
 execute if score $tips system matches 13 run tellraw @a ["",{"text":"Tips>> ぜひクリックしてみてね!","color":"#40e0d0","clickEvent":{"action":"open_url","value":"https://x.gd/6graM"}}]
 execute if score $tips system matches 14 run tellraw @a ["",{"text":"Tips>> みんなおみくじで大凶を引いて全員から責められてメンタル崩壊しよう!","color":"#40e0d0"}]
 execute if score $tips system matches 15 run tellraw @a ["",{"text":"Tips>> え?Tipsほぼ関係ないものばっかりだって?\n……ｿﾝﾅｺﾄﾅｲﾖｰ","color":"#40e0d0","strikethrough":true}]
+execute if score $tips system matches 14 run tellraw @a ["",{"text":"Tips>> スペクテイターになってもいいのかい?復活や鬼になれるチャンスを逃してしまうよ","color":"#40e0d0"}]
