@@ -1,2 +1,0 @@
-$team join oni $(SelectPlayer)
-tellraw @a ["",{"text":"\u73fe\u5728\u306e\u9b3c\u306f","color":"yellow"},{"text":":[","color":"green"},{"selector":"@a[team=oni]","color":"green"},{"text":"]","color":"green"},{"text":"\u3055\u3093\u3067\u3059","color":"yellow"}]
