@@ -1,0 +1,8 @@
+{
+    "values":[
+        "onigokko:omikuji/main",
+        "onigokko:system",
+        "onigokko:setting_page/spawnpoint_setting",
+        "onigokko:setting_page/startteleport_setting"
+    ]
+}
