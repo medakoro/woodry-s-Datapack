@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_axe"
+      },
+      "title": "初めてのキル",
+      "description": "やっちゃったね....人を...",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "onimeda:firstjoin",
+    "criteria": {
+      "firstkill": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

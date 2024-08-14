@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_block"
+      },
+      "title": "初めての5連勝",
+      "description": "どうだい?5回連続勝利の味は",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+  "parent":"onimeda:firstwin",
+    "criteria": {
+      "5stwin": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherrack",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "運がいい鬼",
+      "description": "これが最近はやりの転生ものかぁ(隠し進捗)",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "onimeda:firstoni",
+    "criteria": {
+      "firstonirandom": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

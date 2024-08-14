@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:woodry_}"
+      },
+      "title": "鬼ごっこいざ参加!",
+      "description": "これがマルチ....",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    
+    "parent": "onimeda:onigokko",
+    "criteria": {
+      "firstjoin": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

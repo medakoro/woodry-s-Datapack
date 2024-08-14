@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherrack"
+      },
+      "title": "初めての鬼化",
+      "description": "おっと、様子が変だね...",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "onimeda:firstjoin",
+    "criteria": {
+      "firstoni": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

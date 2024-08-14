@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_sword",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": "完全犯罪",
+      "description": "他の人の手などいらぬ、むしろ邪魔だ。(隠し進捗)",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "onimeda:halfkill",
+    "criteria": {
+      "allkill": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

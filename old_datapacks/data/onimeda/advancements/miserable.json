@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:beacon"
+      },
+      "title": "You are the miserable",
+      "description": "パイプオルガンの音でも聞いて休みましょうか...",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "onimeda:firstjoin",
+    "criteria": {
+      "miserable": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:MHF_Skeleton}"
+      },
+      "title": "回線落ちの悪夢",
+      "description": "おっと...やっちゃったね",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "onimeda:firstjoin",
+    "criteria": {
+      "firstleave": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

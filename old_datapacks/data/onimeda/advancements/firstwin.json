@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_block"
+    },
+    "title": "初めての勝利",
+    "description": "やったぁ!初勝利おめでとう!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"onimeda:firstjoin",
+  "criteria": {
+    "firstwin": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
